@@ -1,69 +1,82 @@
 <!doctype html>
 <html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Isso Aconteceu · produtos dos vídeos</title><meta name="robots" content="index,follow">
+<title>Isso Aconteceu · produtos dos vídeos</title><meta name="theme-color" content="#FFD23F">
 <style>
-:root{--bg:#16130F;--card:#2A241D;--accent:#FFD23F;--text:#FFFFFF}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.45}
-main{max-width:640px;margin:0 auto;padding:24px 16px 48px}
-h1{font-size:26px;margin:0 0 4px}.tagline{opacity:.75;margin:0 0 20px}
-.video{background:var(--card);border-radius:14px;padding:16px;margin:0 0 14px;scroll-margin-top:12px}
-.video:target{outline:2px solid var(--accent)}
-.video h2{font-size:17px;margin:0 0 4px}.meta{font-size:13px;opacity:.65;margin:0 0 12px}
-.meta a{color:inherit}
-a.prod{display:block;text-decoration:none;color:var(--bg);background:var(--accent);border-radius:10px;padding:11px 14px;margin:8px 0;font-weight:600}
-a.prod span{display:block;font-size:12px;font-weight:500;opacity:.8}
-a.ch{display:block;background:var(--card);color:var(--text);text-decoration:none;border-radius:14px;padding:16px;margin:0 0 12px;font-weight:600}
-footer{font-size:12px;opacity:.6;margin-top:28px}
-</style></head><body><main>
-<h1>Isso Aconteceu</h1><p class="tagline">Histórias reais que parecem mentira · os produtos de cada vídeo</p>
+:root{--page:#F4F4F6;--card:#FFFFFF;--text:#16161A;--muted:#6B6B76;--line:#E6E6EB;--cta:#FF5A1F;--cta-ink:#FFFFFF;--chip:#16161A}
+@media (prefers-color-scheme:dark){:root{--page:#0F0F12;--card:#1B1B21;--text:#F4F4F6;--muted:#A0A0AB;--line:#2A2A33;--chip:#F4F4F6}}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--page);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.4}
+.hero{background:linear-gradient(135deg,var(--from),var(--to));color:var(--ink);padding:28px 16px 56px}
+.hero .in{max-width:640px;margin:0 auto}.badge{font-size:40px;line-height:1}
+.hero h1{font-size:28px;margin:10px 0 4px;letter-spacing:-.02em}.hero p{margin:0;opacity:.85;font-size:15px}
+main{max-width:640px;margin:-36px auto 0;padding:0 12px 40px}
+.video{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:14px;margin:0 0 12px;box-shadow:0 1px 2px rgba(0,0,0,.04);scroll-margin-top:12px}
+.video:target{border-color:var(--cta);box-shadow:0 0 0 3px rgba(255,90,31,.25)}
+.vh{display:flex;align-items:center;gap:8px;margin:0 0 10px}
+.chip{flex:none;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;background:var(--chip);color:var(--page);border-radius:999px;padding:3px 8px}
+.video h2{font-size:15px;line-height:1.3;margin:0;font-weight:700}
+.meta{font-size:12px;color:var(--muted);margin:2px 0 10px}.meta a{color:var(--muted)}
+a.prod{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--text);border:1px solid var(--line);border-radius:14px;padding:10px;margin:8px 0}
+a.prod:active{transform:scale(.99)}
+.thumb{flex:none;width:56px;height:56px;border-radius:12px;display:grid;place-items:center;font-size:30px}
+.info{flex:1;min-width:0}.name{font-weight:650;font-size:14px;line-height:1.25;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.sub{font-size:12px;color:var(--muted);margin-top:2px}
+.buy{flex:none;background:var(--cta);color:var(--cta-ink);font-weight:700;font-size:13px;border-radius:999px;padding:9px 12px;white-space:nowrap}
+a.ch{display:flex;align-items:center;gap:12px;background:var(--card);border:1px solid var(--line);color:var(--text);text-decoration:none;border-radius:18px;padding:16px;margin:0 0 12px;font-weight:700}
+a.ch span{font-size:28px}a.ch small{display:block;font-weight:500;color:var(--muted)}
+footer{font-size:12px;color:var(--muted);margin:24px 4px 0}
+</style></head>
+<body style="--from:#FFD23F;--to:#FF8A3D;--ink:#16130F">
+<header class="hero"><div class="in"><div class="badge">💥</div><h1>Isso Aconteceu</h1><p>Histórias reais que parecem mentira · os produtos de cada vídeo</p></div></header>
+<main>
 <section class="video" id="v-4f168972">
-<h2>O vigarista que vendeu a Torre Eiffel</h2>
-<p class="meta">17/11/2026 · assistir: <a href="https://youtube.com/shorts/FxEG0-4mkWc" rel="noopener">YouTube</a></p>
-<a class="prod" href="https://www.amazon.com.br/s?k=miniatura%20torre%20eiffel&amp;tag=pausaprapen0a-20" rel="sponsored noopener">Miniatura da Torre Eiffel<span>Ver na Amazon →</span></a>
-<a class="prod" href="https://www.amazon.com.br/s?k=quebra-cabe%C3%A7a%20paris%20torre%20eiffel&amp;tag=pausaprapen0a-20" rel="sponsored noopener">Quebra-cabeça de Paris<span>Ver na Amazon →</span></a>
-<a class="prod" href="https://www.amazon.com.br/s?k=Prenda-me%20se%20For%20Capaz%20(livro)%20Frank%20Abagnale&amp;tag=pausaprapen0a-20" rel="sponsored noopener">Prenda-me se For Capaz (livro), de Frank Abagnale<span>Ver na Amazon →</span></a>
+<div class="vh"><span class="chip">No vídeo</span><h2>O vigarista que vendeu a Torre Eiffel</h2></div>
+<p class="meta">17 de nov · assistir no <a href="https://youtube.com/shorts/FxEG0-4mkWc" rel="noopener">YouTube</a></p>
+<a class="prod" href="https://www.amazon.com.br/s?k=miniatura%20torre%20eiffel&amp;tag=pausaprapen0a-20" rel="sponsored noopener"><span class="thumb" style="background:#E6F0FF">🏛️</span><span class="info"><span class="name">Miniatura da Torre Eiffel</span><span class="sub">Miniatura · Amazon</span></span><span class="buy">Ver oferta</span></a>
+<a class="prod" href="https://www.amazon.com.br/s?k=quebra-cabe%C3%A7a%20paris%20torre%20eiffel&amp;tag=pausaprapen0a-20" rel="sponsored noopener"><span class="thumb" style="background:#E8F8EE">🧩</span><span class="info"><span class="name">Quebra-cabeça de Paris</span><span class="sub">Jogo · Amazon</span></span><span class="buy">Ver oferta</span></a>
+<a class="prod" href="https://www.amazon.com.br/s?k=Prenda-me%20se%20For%20Capaz%20(livro)%20Frank%20Abagnale&amp;tag=pausaprapen0a-20" rel="sponsored noopener"><span class="thumb" style="background:#FFF4CC">📖</span><span class="info"><span class="name">Prenda-me se For Capaz (livro)</span><span class="sub">Livro · Frank Abagnale · Amazon</span></span><span class="buy">Ver oferta</span></a>
 </section>
 <section class="video" id="v-699a73d8">
-<h2>Henry Ford construiu uma cidade americana na Amazônia</h2>
-<p class="meta">16/11/2026 · assistir: <a href="https://youtube.com/shorts/EWG9TcDMpfE" rel="noopener">YouTube</a> · <a href="https://www.instagram.com/reel/Df2y2ozDRMR/" rel="noopener">Instagram</a></p>
-<a class="prod" href="https://www.amazon.com.br/s?k=Fordl%C3%A2ndia%20Greg%20Grandin&amp;tag=pausaprapen0a-20" rel="sponsored noopener">Fordlândia, de Greg Grandin<span>Ver na Amazon →</span></a>
-<a class="prod" href="https://www.amazon.com.br/s?k=miniatura%20ford%20modelo%20t&amp;tag=pausaprapen0a-20" rel="sponsored noopener">Miniatura Ford Modelo T<span>Ver na Amazon →</span></a>
-<a class="prod" href="https://www.amazon.com.br/s?k=1808%20Laurentino%20Gomes&amp;tag=pausaprapen0a-20" rel="sponsored noopener">1808, de Laurentino Gomes<span>Ver na Amazon →</span></a>
+<div class="vh"><span class="chip">No vídeo</span><h2>Henry Ford construiu uma cidade americana na Amazônia</h2></div>
+<p class="meta">16 de nov · assistir no <a href="https://youtube.com/shorts/EWG9TcDMpfE" rel="noopener">YouTube</a> · <a href="https://www.instagram.com/reel/Df2y2ozDRMR/" rel="noopener">Instagram</a></p>
+<a class="prod" href="https://www.amazon.com.br/s?k=Fordl%C3%A2ndia%20Greg%20Grandin&amp;tag=pausaprapen0a-20" rel="sponsored noopener"><span class="thumb" style="background:#FFF4CC">📖</span><span class="info"><span class="name">Fordlândia</span><span class="sub">Livro · Greg Grandin · Amazon</span></span><span class="buy">Ver oferta</span></a>
+<a class="prod" href="https://www.amazon.com.br/s?k=miniatura%20ford%20modelo%20t&amp;tag=pausaprapen0a-20" rel="sponsored noopener"><span class="thumb" style="background:#E6F0FF">🏛️</span><span class="info"><span class="name">Miniatura Ford Modelo T</span><span class="sub">Miniatura · Amazon</span></span><span class="buy">Ver oferta</span></a>
+<a class="prod" href="https://www.amazon.com.br/s?k=1808%20Laurentino%20Gomes&amp;tag=pausaprapen0a-20" rel="sponsored noopener"><span class="thumb" style="background:#FFF4CC">📖</span><span class="info"><span class="name">1808</span><span class="sub">Livro · Laurentino Gomes · Amazon</span></span><span class="buy">Ver oferta</span></a>
 </section>
 <section class="video" id="v-27bbfcf0">
-<h2>O porco que quase começou uma guerra</h2>
-<p class="meta">16/11/2026 · assistir: <a href="https://www.instagram.com/reel/Df0M5LbjBk1/" rel="noopener">Instagram</a></p>
-<a class="prod" href="https://www.amazon.com.br/s?k=pel%C3%BAcia%20porco&amp;tag=pausaprapen0a-20" rel="sponsored noopener">Pelúcia de porquinho<span>Ver na Amazon →</span></a>
-<a class="prod" href="https://www.amazon.com.br/s?k=Sapiens%3A%20Uma%20Breve%20Hist%C3%B3ria%20da%20Humanidade%20Yuval%20Noah%20Harari&amp;tag=pausaprapen0a-20" rel="sponsored noopener">Sapiens: Uma Breve História da Humanidade, de Yuval Noah Harari<span>Ver na Amazon →</span></a>
-<a class="prod" href="https://www.amazon.com.br/s?k=Uma%20Breve%20Hist%C3%B3ria%20do%20Mundo%20Geoffrey%20Blainey&amp;tag=pausaprapen0a-20" rel="sponsored noopener">Uma Breve História do Mundo, de Geoffrey Blainey<span>Ver na Amazon →</span></a>
+<div class="vh"><span class="chip">No vídeo</span><h2>O porco que quase começou uma guerra</h2></div>
+<p class="meta">16 de nov · assistir no <a href="https://www.instagram.com/reel/Df0M5LbjBk1/" rel="noopener">Instagram</a></p>
+<a class="prod" href="https://www.amazon.com.br/s?k=pel%C3%BAcia%20porco&amp;tag=pausaprapen0a-20" rel="sponsored noopener"><span class="thumb" style="background:#FFE3EC">🧸</span><span class="info"><span class="name">Pelúcia de porquinho</span><span class="sub">Pelúcia · Amazon</span></span><span class="buy">Ver oferta</span></a>
+<a class="prod" href="https://www.amazon.com.br/s?k=Sapiens%3A%20Uma%20Breve%20Hist%C3%B3ria%20da%20Humanidade%20Yuval%20Noah%20Harari&amp;tag=pausaprapen0a-20" rel="sponsored noopener"><span class="thumb" style="background:#FFF4CC">📖</span><span class="info"><span class="name">Sapiens: Uma Breve História da Humanidade</span><span class="sub">Livro · Yuval Noah Harari · Amazon</span></span><span class="buy">Ver oferta</span></a>
+<a class="prod" href="https://www.amazon.com.br/s?k=Uma%20Breve%20Hist%C3%B3ria%20do%20Mundo%20Geoffrey%20Blainey&amp;tag=pausaprapen0a-20" rel="sponsored noopener"><span class="thumb" style="background:#FFF4CC">📖</span><span class="info"><span class="name">Uma Breve História do Mundo</span><span class="sub">Livro · Geoffrey Blainey · Amazon</span></span><span class="buy">Ver oferta</span></a>
 </section>
 <section class="video" id="v-b2f032cf">
-<h2>A guerra americana que começou por um mapa errado</h2>
-<p class="meta">16/11/2026 · assistir: <a href="https://youtube.com/shorts/IRXxrUnMp6Y" rel="noopener">YouTube</a></p>
-<a class="prod" href="https://www.amazon.com.br/s?k=livro%20hist%C3%B3ria%20dos%20estados%20unidos&amp;tag=pausaprapen0a-20" rel="sponsored noopener">Livros de história dos Estados Unidos<span>Ver na Amazon →</span></a>
-<a class="prod" href="https://www.amazon.com.br/s?k=Uma%20Breve%20Hist%C3%B3ria%20do%20Mundo%20Geoffrey%20Blainey&amp;tag=pausaprapen0a-20" rel="sponsored noopener">Uma Breve História do Mundo, de Geoffrey Blainey<span>Ver na Amazon →</span></a>
-<a class="prod" href="https://www.amazon.com.br/s?k=Sapiens%3A%20Uma%20Breve%20Hist%C3%B3ria%20da%20Humanidade%20Yuval%20Noah%20Harari&amp;tag=pausaprapen0a-20" rel="sponsored noopener">Sapiens: Uma Breve História da Humanidade, de Yuval Noah Harari<span>Ver na Amazon →</span></a>
+<div class="vh"><span class="chip">No vídeo</span><h2>A guerra americana que começou por um mapa errado</h2></div>
+<p class="meta">16 de nov · assistir no <a href="https://youtube.com/shorts/IRXxrUnMp6Y" rel="noopener">YouTube</a></p>
+<a class="prod" href="https://www.amazon.com.br/s?k=livro%20hist%C3%B3ria%20dos%20estados%20unidos&amp;tag=pausaprapen0a-20" rel="sponsored noopener"><span class="thumb" style="background:#FFF4CC">📖</span><span class="info"><span class="name">Livros de história dos Estados Unidos</span><span class="sub">Livro · Amazon</span></span><span class="buy">Ver oferta</span></a>
+<a class="prod" href="https://www.amazon.com.br/s?k=Uma%20Breve%20Hist%C3%B3ria%20do%20Mundo%20Geoffrey%20Blainey&amp;tag=pausaprapen0a-20" rel="sponsored noopener"><span class="thumb" style="background:#FFF4CC">📖</span><span class="info"><span class="name">Uma Breve História do Mundo</span><span class="sub">Livro · Geoffrey Blainey · Amazon</span></span><span class="buy">Ver oferta</span></a>
+<a class="prod" href="https://www.amazon.com.br/s?k=Sapiens%3A%20Uma%20Breve%20Hist%C3%B3ria%20da%20Humanidade%20Yuval%20Noah%20Harari&amp;tag=pausaprapen0a-20" rel="sponsored noopener"><span class="thumb" style="background:#FFF4CC">📖</span><span class="info"><span class="name">Sapiens: Uma Breve História da Humanidade</span><span class="sub">Livro · Yuval Noah Harari · Amazon</span></span><span class="buy">Ver oferta</span></a>
 </section>
 <section class="video" id="v-d8b7bc7a">
-<h2>A guerra de 40 anos travada com garrafas de bebida</h2>
-<p class="meta">16/11/2026 · assistir: <a href="https://www.instagram.com/reel/Dfzt155klWk/" rel="noopener">Instagram</a></p>
-<a class="prod" href="https://www.amazon.com.br/s?k=Prisioneiros%20da%20Geografia%20Tim%20Marshall&amp;tag=pausaprapen0a-20" rel="sponsored noopener">Prisioneiros da Geografia, de Tim Marshall<span>Ver na Amazon →</span></a>
-<a class="prod" href="https://www.amazon.com.br/s?k=copo%20de%20u%C3%ADsque%20kit&amp;tag=pausaprapen0a-20" rel="sponsored noopener">Copos de uísque<span>Ver na Amazon →</span></a>
-<a class="prod" href="https://www.amazon.com.br/s?k=Uma%20Breve%20Hist%C3%B3ria%20do%20Mundo%20Geoffrey%20Blainey&amp;tag=pausaprapen0a-20" rel="sponsored noopener">Uma Breve História do Mundo, de Geoffrey Blainey<span>Ver na Amazon →</span></a>
+<div class="vh"><span class="chip">No vídeo</span><h2>A guerra de 40 anos travada com garrafas de bebida</h2></div>
+<p class="meta">16 de nov · assistir no <a href="https://www.instagram.com/reel/Dfzt155klWk/" rel="noopener">Instagram</a></p>
+<a class="prod" href="https://www.amazon.com.br/s?k=Prisioneiros%20da%20Geografia%20Tim%20Marshall&amp;tag=pausaprapen0a-20" rel="sponsored noopener"><span class="thumb" style="background:#FFF4CC">📖</span><span class="info"><span class="name">Prisioneiros da Geografia</span><span class="sub">Livro · Tim Marshall · Amazon</span></span><span class="buy">Ver oferta</span></a>
+<a class="prod" href="https://www.amazon.com.br/s?k=copo%20de%20u%C3%ADsque%20kit&amp;tag=pausaprapen0a-20" rel="sponsored noopener"><span class="thumb" style="background:#F1F1F4">🛍️</span><span class="info"><span class="name">Copos de uísque</span><span class="sub">Produto · Amazon</span></span><span class="buy">Ver oferta</span></a>
+<a class="prod" href="https://www.amazon.com.br/s?k=Uma%20Breve%20Hist%C3%B3ria%20do%20Mundo%20Geoffrey%20Blainey&amp;tag=pausaprapen0a-20" rel="sponsored noopener"><span class="thumb" style="background:#FFF4CC">📖</span><span class="info"><span class="name">Uma Breve História do Mundo</span><span class="sub">Livro · Geoffrey Blainey · Amazon</span></span><span class="buy">Ver oferta</span></a>
 </section>
 <section class="video" id="v-56f07477">
-<h2>O exército que perdeu uma guerra para aves</h2>
-<p class="meta">15/11/2026 · assistir: <a href="https://youtube.com/shorts/dqOALNplv9g" rel="noopener">YouTube</a> · <a href="https://www.instagram.com/reel/DfxoDwbgPfk/" rel="noopener">Instagram</a></p>
-<a class="prod" href="https://www.amazon.com.br/s?k=Sapiens%3A%20Uma%20Breve%20Hist%C3%B3ria%20da%20Humanidade%20Yuval%20Noah%20Harari&amp;tag=pausaprapen0a-20" rel="sponsored noopener">Sapiens: Uma Breve História da Humanidade, de Yuval Noah Harari<span>Ver na Amazon →</span></a>
-<a class="prod" href="https://www.amazon.com.br/s?k=Uma%20Breve%20Hist%C3%B3ria%20do%20Mundo%20Geoffrey%20Blainey&amp;tag=pausaprapen0a-20" rel="sponsored noopener">Uma Breve História do Mundo, de Geoffrey Blainey<span>Ver na Amazon →</span></a>
-<a class="prod" href="https://www.amazon.com.br/s?k=pel%C3%BAcia%20avestruz%20emu&amp;tag=pausaprapen0a-20" rel="sponsored noopener">Pelúcia de emu e avestruz<span>Ver na Amazon →</span></a>
+<div class="vh"><span class="chip">No vídeo</span><h2>O exército que perdeu uma guerra para aves</h2></div>
+<p class="meta">15 de nov · assistir no <a href="https://youtube.com/shorts/dqOALNplv9g" rel="noopener">YouTube</a> · <a href="https://www.instagram.com/reel/DfxoDwbgPfk/" rel="noopener">Instagram</a></p>
+<a class="prod" href="https://www.amazon.com.br/s?k=Sapiens%3A%20Uma%20Breve%20Hist%C3%B3ria%20da%20Humanidade%20Yuval%20Noah%20Harari&amp;tag=pausaprapen0a-20" rel="sponsored noopener"><span class="thumb" style="background:#FFF4CC">📖</span><span class="info"><span class="name">Sapiens: Uma Breve História da Humanidade</span><span class="sub">Livro · Yuval Noah Harari · Amazon</span></span><span class="buy">Ver oferta</span></a>
+<a class="prod" href="https://www.amazon.com.br/s?k=Uma%20Breve%20Hist%C3%B3ria%20do%20Mundo%20Geoffrey%20Blainey&amp;tag=pausaprapen0a-20" rel="sponsored noopener"><span class="thumb" style="background:#FFF4CC">📖</span><span class="info"><span class="name">Uma Breve História do Mundo</span><span class="sub">Livro · Geoffrey Blainey · Amazon</span></span><span class="buy">Ver oferta</span></a>
+<a class="prod" href="https://www.amazon.com.br/s?k=pel%C3%BAcia%20avestruz%20emu&amp;tag=pausaprapen0a-20" rel="sponsored noopener"><span class="thumb" style="background:#FFE3EC">🧸</span><span class="info"><span class="name">Pelúcia de emu e avestruz</span><span class="sub">Pelúcia · Amazon</span></span><span class="buy">Ver oferta</span></a>
 </section>
 <section class="video" id="v-d30bff42">
-<h2>A rinoceronte que teve 100 mil votos em São Paulo</h2>
-<p class="meta">15/11/2026 · assistir: <a href="https://youtube.com/shorts/IDFTipEGyO0" rel="noopener">YouTube</a> · <a href="https://www.instagram.com/reel/DfxHQY3jTRb/" rel="noopener">Instagram</a></p>
-<a class="prod" href="https://www.amazon.com.br/s?k=A%20Capital%20da%20Vertigem%3A%20uma%20hist%C3%B3ria%20de%20S%C3%A3o%20Paulo%20Roberto%20Pompeu%20de%20Toledo&amp;tag=pausaprapen0a-20" rel="sponsored noopener">A Capital da Vertigem: uma história de São Paulo, de Roberto Pompeu de Toledo<span>Ver na Amazon →</span></a>
-<a class="prod" href="https://www.amazon.com.br/s?k=pel%C3%BAcia%20rinoceronte&amp;tag=pausaprapen0a-20" rel="sponsored noopener">Pelúcia de rinoceronte<span>Ver na Amazon →</span></a>
-<a class="prod" href="https://www.amazon.com.br/s?k=1808%20Laurentino%20Gomes&amp;tag=pausaprapen0a-20" rel="sponsored noopener">1808, de Laurentino Gomes<span>Ver na Amazon →</span></a>
+<div class="vh"><span class="chip">No vídeo</span><h2>A rinoceronte que teve 100 mil votos em São Paulo</h2></div>
+<p class="meta">15 de nov · assistir no <a href="https://youtube.com/shorts/IDFTipEGyO0" rel="noopener">YouTube</a> · <a href="https://www.instagram.com/reel/DfxHQY3jTRb/" rel="noopener">Instagram</a></p>
+<a class="prod" href="https://www.amazon.com.br/s?k=A%20Capital%20da%20Vertigem%3A%20uma%20hist%C3%B3ria%20de%20S%C3%A3o%20Paulo%20Roberto%20Pompeu%20de%20Toledo&amp;tag=pausaprapen0a-20" rel="sponsored noopener"><span class="thumb" style="background:#FFF4CC">📖</span><span class="info"><span class="name">A Capital da Vertigem: uma história de São Paulo</span><span class="sub">Livro · Roberto Pompeu de Toledo · Amazon</span></span><span class="buy">Ver oferta</span></a>
+<a class="prod" href="https://www.amazon.com.br/s?k=pel%C3%BAcia%20rinoceronte&amp;tag=pausaprapen0a-20" rel="sponsored noopener"><span class="thumb" style="background:#FFE3EC">🧸</span><span class="info"><span class="name">Pelúcia de rinoceronte</span><span class="sub">Pelúcia · Amazon</span></span><span class="buy">Ver oferta</span></a>
+<a class="prod" href="https://www.amazon.com.br/s?k=1808%20Laurentino%20Gomes&amp;tag=pausaprapen0a-20" rel="sponsored noopener"><span class="thumb" style="background:#FFF4CC">📖</span><span class="info"><span class="name">1808</span><span class="sub">Livro · Laurentino Gomes · Amazon</span></span><span class="buy">Ver oferta</span></a>
 </section>
 <footer>Links de afiliado da Amazon: comprando por eles você apoia o canal sem pagar nada a mais. Como Associado da Amazon, o canal recebe por compras qualificadas. Preços e disponibilidade podem mudar.</footer>
 </main></body></html>
